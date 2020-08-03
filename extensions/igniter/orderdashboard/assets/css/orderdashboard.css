@@ -1,0 +1,23 @@
+/* Order Dashboard Overrides */
+
+a.nav-link.reservations {
+    display: none!important;
+}
+tr.groupedLocationHeader {
+    color: #fff;
+}
+tr.groupedLocationHeader td {
+    background-color: #333; 
+    font-weight: bold;   
+}
+tr.groupedLocationHeader td span.title, 
+.groupedTimeSlotHeader td span.title {
+    margin-left: 10px;
+}
+tr.groupedTimeSlotHeader {
+    color: #fff;
+}
+tr.groupedTimeSlotHeader td {
+    background-color: #888; 
+    font-weight: bold;   
+ }

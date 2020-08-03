@@ -1,0 +1,39 @@
+#notification {
+  position: fixed;
+  top: 40px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 35%;
+  z-index: 1090;
+}
+.alert {
+  color: $white;
+  font-weight: $font-weight-bold;
+  box-shadow: $box-shadow;
+  text-align: center;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  &:not(.show) {
+    display: none;
+  }
+
+  .show {
+    display: block;
+  }
+}
+.alert-collapse {
+  .alert {
+    padding: .3rem 1.25rem;
+    margin-bottom: 0;
+  }
+}
+.swal-button--confirm {
+  @extend .btn-primary;
+}
+.swal-button--cancel {
+  @extend .btn-light;
+}

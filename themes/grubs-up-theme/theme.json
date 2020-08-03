@@ -1,0 +1,17 @@
+{
+  "code": "grubs-up-theme",
+  "name": "Grubs Up Theme",
+  "description": "Customised default theme for Grubs Up",
+  "version": "v1.0.0",
+  "author": "OrderX Dev Team",
+  "locked": false,
+  "require": {
+    "igniter.cart": "*",
+    "igniter.frontend": "*",
+    "igniter.local": "*",
+    "igniter.pages": "*",
+    "igniter.payregister": "*",
+    "igniter.reservation": "*",
+    "igniter.user": "*"
+  }
+}

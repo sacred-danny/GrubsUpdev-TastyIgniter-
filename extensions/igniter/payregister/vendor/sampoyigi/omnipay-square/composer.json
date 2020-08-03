@@ -1,0 +1,39 @@
+{
+    "name": "sampoyigi/omnipay-square",
+    "type": "library",
+    "description": "Square driver for the Omnipay payment processing library",
+    "keywords": [
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment",
+        "square"
+    ],
+    "homepage": "https://github.com/transportersio/omnipay-square",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Samuel Adepoyigi",
+            "email": "sam@sampoyigi.com"
+        },
+        {
+            "name": "Siriphan Boonmee",
+            "email": "ms@transporters.io"
+        },
+        {
+            "name": "Omnipay Contributors",
+            "homepage": "https://github.com/transportersio/omnipay-square/contributors"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omnipay\\Square\\" : "src/" }
+    },
+    "require": {
+        "omnipay/common": "~3.0",
+        "square/connect": "*"
+    },
+    "require-dev": {
+        "omnipay/tests": "~3.0"
+    }
+}

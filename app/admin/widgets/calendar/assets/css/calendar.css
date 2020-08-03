@@ -1,0 +1,12 @@
+.calendar-widget {
+	padding: 15px;
+	background-color: var(--light);
+}
+.calendar-widget .popover-title {
+	padding: 15px;
+}
+.calendar-popover-toolbar {
+	position: absolute;
+	right: 15px;
+	top: 8px;
+}

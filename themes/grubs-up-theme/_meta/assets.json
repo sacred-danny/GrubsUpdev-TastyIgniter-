@@ -1,0 +1,56 @@
+{
+  "doctype": "html5",
+  "favicon": "grubs-up-theme/assets/images/favicon.ico",
+  "meta": [
+    {
+      "name": "Content-type",
+      "content": "text/html; charset=utf-8",
+      "type": "equiv"
+    },
+    {
+      "name": "X-UA-Compatible",
+      "content": "IE=edge",
+      "type": "equiv"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no",
+      "type": "name"
+    }
+  ],
+  "style": [
+    {
+      "path": "grubs-up-theme/assets/css/app.css",
+      "name": "app-css"
+    },
+    {
+      "path": "grubs-up-theme/assets/css/ekko-lightbox.css",
+      "name": "ekko-css"
+    }
+  ],
+  "script": [
+    {
+      "path": "grubs-up-theme/assets/js/app.js",
+      "name": "app-js"
+    }
+  ],
+  "bundles": [
+    {
+      "type": "scss",
+      "files": "~/themes/grubs-up-theme/assets/src/scss/app.scss",
+      "destination": "~/themes/grubs-up-theme/assets/css/app.css"
+    },
+    {
+      "type": "js",
+      "files": [
+        "~/app/system/assets/ui/flame.js",
+        "~/themes/grubs-up-theme/assets/src/js/vendor/affix.js",
+        "~/themes/grubs-up-theme/assets/src/js/vendor/select2.min.js",
+        "~/themes/grubs-up-theme/assets/src/js/vendor/jquery.raty.js",
+        "~/themes/grubs-up-theme/assets/src/js/vendor/ekko-lightbox.min.js",
+        "~/themes/grubs-up-theme/assets/src/js/app.js"
+      ],
+      "destination": "~/themes/grubs-up-theme/assets/js/app.js"
+    }
+  ]
+}

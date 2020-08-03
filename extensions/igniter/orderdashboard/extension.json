@@ -1,0 +1,13 @@
+{
+    "code": "igniter.OrderDashboard",
+    "name": "Grubs Up Order Dashboard",
+    "description": "Extended order management dashboard for Grub's Up",
+    "version": "v1.0.0",
+    "author": "Tim Lloyd",
+    "icon": {
+        "class": "fa fa-cutlery",
+        "color": "#fff",
+        "backgroundColor": "#ED561A"
+    },
+    "homepage": "https://github.com/tlloyduk/ti-order-dashboard"
+}

@@ -1,0 +1,13 @@
+{
+  "code": "igniter.reservation",
+  "name": "Reservation",
+  "description": "Provides a simple booking form to accept table reservations.",
+  "version": "v1.1.6",
+  "author": "SamPoyigi",
+  "icon": {
+    "class": "fa fa-calendar",
+    "backgroundColor": "#8C1243",
+    "color": "#FFF"
+  },
+  "homepage": "https://github.com/tastyigniter/ti-ext-reservation"
+}

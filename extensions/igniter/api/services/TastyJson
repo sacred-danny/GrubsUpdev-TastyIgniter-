@@ -1,0 +1,31 @@
+<?php
+
+namespace Igniter\Api\Services;
+
+// Libary Import
+use Igniter\Flame\Traits\Singleton;
+
+/**
+ * TastyJson -- operate Json Object
+ */
+class TastyJson {
+    use Singleton;
+
+    public function convertKeysToCamelCase($apiResponseArray)
+    {
+        $arr = [];
+        foreach ($apiResponseArray as $key => $value) {
+            if (preg_match('/_/', $key)) {
+                preg_match('/[^_]*/', $key, $m);
+                preg_match('/(_)([a-zA-Z]*)/', $key, $v);
+                $key = lcfirst(implode('', array_map('ucfirst', explode('_', $key))));
+            }
+
+            if (is_array($value))
+                $value = $this->convertKeysToCamelCase($value);
+
+            $arr[$key] = $value;
+        }
+        return $arr;
+    }
+}
